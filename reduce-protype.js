@@ -37,4 +37,5 @@ const grouped = items.myReduce(function (acc, item) {
 }, {});
 
 console.log(grouped);
+
 // { fruit: ['apple', 'banana'], vegetable: ['carrot'] }
